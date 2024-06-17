@@ -38,7 +38,7 @@ def calculate_equal_weight(portfolio_size, stocks, prices):
 # Main function to run the Streamlit app
 def main():
     st.title("S&P 500 Equal-Weight Portfolio Allocation")
-    st.text("The S&P 500 is the worlds most popular stock market index. The largest fund that is benchmarked to this index is the SPDR® S&P 500® ETF Trust. It has more than US$250 billion of assets under management.The goal of this section of the course is to create a Python script that will accept the value of your portfolio and tell you how many shares of each S&P 500 constituent you should purchase to get an equal-weight version of the index fund.")
+    st.text("The S&P 500 is the worlds most popular stock market index. The largest fund that is benchmarked to this index is the SPDR® S&P 500® ETF Trust. It has more than US$250 billion of assets under management.The goal of this section is to have a script that will accept the value of your portfolio and tell you how many shares of each S&P 500 constituent in real time and you should purchase to get an equal-weight version of the index fund.")
 
     portfolio_size = st.number_input("Enter the value of your portfolio:", min_value=0.0, step=1000.0)
 
